@@ -1,9 +1,7 @@
 <h1>User Guide</h1>
 
-Inspired by the recording workflow of "sampling" samplers such as the SP-x0x series as well as software solutions like Beatmaker 3 on iOS,<br>
-Quix is a flexible and easy to use midi-controlled audio recorder for Ableton Live 10/Max For Live 8.<br>
-Since almost every parameter can be automated in Live via MIDI, Quix allows a user accustomed to hardware sampling to immediately record,<br>
-trim, and save audio snippets from routed audio sources with minimal on-screen mouse usage within Ableton.<br>
+Inspired by the recording workflow of "sampling" samplers such as the SP-x0x series as well as software solutions like Beatmaker 3 on iOS, Quix is a flexible and easy to use midi-controlled audio recorder for Ableton Live 10/Max For Live 8.<br>
+Since almost every parameter can be automated in Live via MIDI, Quix allows a user accustomed to hardware sampling to immediately record, trim, and save audio snippets from routed audio sources with minimal on-screen mouse usage within Ableton.<br>
 
 <h2>Requirements</h2>
   <ul>Ableton Live 10 (tested with Live 10.1.25 on MacOS 10.14.6 Mojave)</ul>
@@ -11,7 +9,7 @@ trim, and save audio snippets from routed audio sources with minimal on-screen m
 
 <h2>Usage</h2>
 
-Add the file [Quix Audio Recorder.amxd](/devices/Quix Audio Recorder.amxd) to your preferred Max For Live Audio Effects Path.<br>
+Add the file <a href="/devices/Quix Audio Recorder.amxd">Quix Audio Recorder.amxd</a> to your preferred Max For Live Audio Effects Path.<br>
 Drag and drop the patch into an available channel as an audio effect.<br>
 If using a MIDI controller, open Ableton Live's MIDI Mapping menu to specify parameter mappings for each of the UI elements.<br>
 Recordings are saved in the "Temp File Path" specified in the UI.
@@ -21,7 +19,7 @@ Recordings are saved in the "Temp File Path" specified in the UI.
 <h4>Rec</h4>
 <img src="/img/01-rec.png" alt="Rec">
 If recording method is set to "Manual", begins recording immediately on click.<br>
-Otherwise arms Quix to record when record method conditions are met.<>
+Otherwise arms Quix to record when record method conditions are met.
 
 <h4>Reload Rec</h4>
 <img src="/img/02-reload-rec.png" alt="Reload Rec">
@@ -122,7 +120,7 @@ Changing Monitor in Quix changes the channel's Monitor settings and vice-versa.
 <h4>Delay Compensation</h4>
 <img src="/img/21-delay-compensation.png" alt="Delay Compensation">
 To be used in conjunction with Seq recording method and "Measure" duration.<br>
-A workaround to a [known defect with Ableton Live's integration with Max](https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live).<br>
+A workaround to a <a href="https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live">known defect with Ableton Live's integration with Max</a>.<br>
 Delays the recording start and stop by the number of samples specified in the drop down, thus allowing for a clean perfect loop recording.
 
 <h4>Sample Type</h4>
@@ -170,12 +168,12 @@ Specifies a file path for temporary recordings, defaulting to the device's path.
       This is achieved through recording directly to disk rather than memory. Please be aware that over time you will need to clean out the temp file location.</ul>
   <ul>Due to current limitations with Max 8, Start and End number boxes cannot be both automated AND have dynamic value ranges.<br>
       As a result, Start and End are intentionally not mappable parameters. Map Start and End % dials to automate coarse start/end points.</ul>
-  <ul>Due to a current defect with [Ableton Live's integration with Max](https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live) the first<br>  
+  <ul>Due to a current defect with <a href="https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live">Ableton Live's integration with Max</a> the first<br>  
       beat of every Seq synced measure duration recording will be cut off by the exact sampling buffer of Live.<br>
       This is a defect with Max and Live itself and thus can't be addressed through a bug-fix with this device.<br>
       Use the workaround provided through Delay Compensation to create perfect transport syncronized recorded loops.</ul>
   <ul>Start/End Adj controls, Recenter, Preview, Trim, Save As, and Reload Rec buttons are all designed to provide an experience similar to chopping beats<br>
-      in an SP-x0x type sampler. Specifically the method detailed in this [YouTube](https://www.youtube.com/watch?v=N-GztP2f0Js) video.<br>
+      in an SP-x0x type sampler. Specifically the method detailed in this <a href="https://www.youtube.com/watch?v=N-GztP2f0Js">YouTube</a> video.<br>
       This is great to use in conjunction with a MIDI controller or Push to make for quick chopping using one's ears rather than visual or automatic chops.</ul>
   <ul>Save As does not trim the audio nor save the playback start/end points specified in the preview window.<br>
       Please apply Trim to commit the start/end to the buffer.</ul>
