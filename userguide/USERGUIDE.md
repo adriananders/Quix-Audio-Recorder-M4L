@@ -90,7 +90,7 @@ Turns Preview Looping on/off.
 <h4>Waveform Preview</h4>
 <img src="/img/17-waveform-preview.png" alt="Waveform Preview">
 Visual display of the current buffer waveform.<br>
-In additon playback start/end selection can be made by clicking and dragging the highlight box.
+In addition playback start/end selection can be made by clicking and dragging the highlight box.
 
 <h4>Channels</h4>
 <img src="/img/18-channels.png" alt="Channels">
@@ -110,7 +110,7 @@ Specifies the recording method employed by Quix.
 
 <h4>Monitor</h4>
 <img src="/img/20-monitor.png" alt="Monitor">
-Similar behvior to Live's channel "Monitor" settings.
+Similar behavior to Live's channel "Monitor" settings.
   <ul>Off prevents audio from being sent out of Quix, eliminating feedback loops during recording.</ul>
   <ul>Auto only allows audio to be passed through Quix when Ableton itself is recording.</ul>
   <ul>In (recommended for sampling external sources) passes audio through Quix's audio out regardless of state.</ul>
@@ -171,7 +171,7 @@ Specifies a file path for temporary recordings, defaulting to the device's path.
   <ul>Due to a current defect with <a href="https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live">Ableton Live's integration with Max</a> the first<br>  
       beat of every Seq synced measure duration recording will be cut off by the exact sampling buffer of Live.<br>
       This is a defect with Max and Live itself and thus can't be addressed through a bug-fix with this device.<br>
-      Use the workaround provided through Delay Compensation to create perfect transport syncronized recorded loops.</ul>
+      Use the workaround provided through Delay Compensation to create perfect transport synchronized recorded loops.</ul>
   <ul>Start/End Adj controls, Recenter, Preview, Trim, Save As, and Reload Rec buttons are all designed to provide an experience similar to chopping beats<br>
       in an SP-x0x type sampler. Specifically the method detailed in this <a href="https://www.youtube.com/watch?v=N-GztP2f0Js">YouTube</a> video.<br>
       This is great to use in conjunction with a MIDI controller or Push to make for quick chopping using one's ears rather than visual or automatic chops.</ul>
