@@ -172,8 +172,8 @@ Specifies a file path for temporary recordings, defaulting to the device's path.
       beat of every Seq synced measure duration recording will be cut off by the exact sampling buffer of Live.<br>
       This is a defect with Max and Live itself and thus can't be addressed through a bug-fix with this device.<br>
       Use the workaround provided through Delay Compensation to create perfect transport synchronized recorded loops.</ul>
-  <ul>Start/End Adj controls, Recenter, Preview, Trim, Save As, and Reload Rec buttons are all designed to provide an experience similar to chopping beats<br>
-      in an SP-x0x type sampler. Specifically the method detailed in this <a href="https://www.youtube.com/watch?v=N-GztP2f0Js">YouTube</a> video.<br>
+  <ul>Start/End Adj controls, Recenter, Preview, Trim, Save As, and Reload Rec buttons are all designed to provide an experience similar to chopping beats in an SP-x0x type sampler. 
+      Specifically the method detailed in this <a href="https://www.youtube.com/watch?v=N-GztP2f0Js">YouTube</a> video.<br>
       This is great to use in conjunction with a MIDI controller or Push to make for quick chopping using one's ears rather than visual or automatic chops.</ul>
   <ul>Save As does not trim the audio nor save the playback start/end points specified in the preview window.<br>
       Please apply Trim to commit the start/end to the buffer.</ul>
