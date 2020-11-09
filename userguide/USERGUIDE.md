@@ -168,8 +168,7 @@ Specifies a file path for temporary recordings, defaulting to the device's path.
       This is achieved through recording directly to disk rather than memory. Please be aware that over time you will need to clean out the temp file location.</ul>
   <ul>Due to current limitations with Max 8, Start and End number boxes cannot be both automated AND have dynamic value ranges.<br>
       As a result, Start and End are intentionally not mappable parameters. Map Start and End % dials to automate coarse start/end points.</ul>
-  <ul>Due to a current defect with <a href="https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live">Ableton Live's integration with Max</a> the first<br>  
-      beat of every Seq synced measure duration recording will be cut off by the exact sampling buffer of Live.<br>
+  <ul>Due to a current defect with <a href="https://cycling74.com/forums/can-i-get-the-audio-buffer-size-of-live">Ableton Live's integration with Max</a> the first beat of every Seq synced measure duration recording will be cut off by the exact sampling buffer of Live.<br>
       This is a defect with Max and Live itself and thus can't be addressed through a bug-fix with this device.<br>
       Use the workaround provided through Delay Compensation to create perfect transport synchronized recorded loops.</ul>
   <ul>Start/End Adj controls, Recenter, Preview, Trim, Save As, and Reload Rec buttons are all designed to provide an experience similar to chopping beats in an SP-x0x type sampler. 
